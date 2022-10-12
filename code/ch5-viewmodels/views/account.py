@@ -29,4 +29,5 @@ def login(request: Request):
 
 @router.get('/account/logout')
 def logout(request: Request):
-    return {}
+    vm = LogoutViewModel(request)
+    return vm.to_dict()

@@ -1,8 +1,16 @@
-fastapi==0.70.0
-uvicorn==0.15.0
+fastapi
+uvicorn
 aiofiles
-
-# This is now available on PyPI.org so we'll be using that one going forward.
 fastapi-chameleon==0.1.12
+starlette
+SQLAlchemy
 
-starlette==0.16.0
+# for email validation
+pydantic
+
+# hashing
+passlib
+
+# for testing
+pytest
+requests
